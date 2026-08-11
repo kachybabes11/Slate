@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "slate";
+  default: true;
+  color-scheme: dark;
+
+  --color-primary: #00ff9d;
+  --color-primary-content: #001a0f;
+
+  --color-secondary: #6366f1;
+  --color-secondary-content: #ffffff;
+
+  --color-base-100: #0f172a;
+  --color-base-200: #1e293b;
+  --color-base-300: #334155;
+  --color-base-content: #f8fafc;
+}
