@@ -17,8 +17,6 @@ const HomePage = () => {
       try{
          const res = await api.get("/notes");
          setNotes(res.data);
-         console.log("API RESPONSE:", res.data);
-         console.log("IS ARRAY:", Array.isArray(res.data));
          setIsRateLimited(false)
       }
       catch(error){
